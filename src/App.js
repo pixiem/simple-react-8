@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/Header';
 import Player from './components/PlayersAndChoose/players/player';

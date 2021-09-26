@@ -38,6 +38,7 @@ const Player = () => {
                     {
                         player.map(player => <Card
                             player={player}
+                            key={player.age}
                             addToCart={addToCart} ></Card>)
                     }
                 </div>
@@ -51,7 +52,9 @@ const Player = () => {
 
                         {
                             clicked.map(player => <Add
-                                className="main-add" player={player}></Add>)
+                                className="main-add"
+                                key={player.age}
+                                player={player}></Add>)
                         }
                     </div>
                 </div>
