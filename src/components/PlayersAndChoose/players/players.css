@@ -1,0 +1,32 @@
+.all-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+.container-left{
+    border-right: 5px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 40px;
+    padding-top:20px;
+    background-color: #6a44fd;
+
+}
+.container-right{
+    background-color: #6a44fd;
+}
+.add{
+    margin-top: 40px;
+    width: 100%;
+   background-color:#6a44fd ;
+    color: black;
+    
+}
+.total-cost{
+    background-color: white;
+    color: black;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1px;
+}
